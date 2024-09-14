@@ -1,0 +1,2 @@
+requests
+extra-streamlit-components
