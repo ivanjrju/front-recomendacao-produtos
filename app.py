@@ -42,4 +42,4 @@ try:
         index_selecionado = stx.tab_bar(data=st.session_state.data, default=0)
         st.info(st.session_state.mensagem[int(index_selecionado)])
 except Exception as e:
-            st.error(f"Ocorreu um erro ao buscar as recomendações.")
+    st.error(f"Ocorreu um erro ao buscar as recomendações.")
